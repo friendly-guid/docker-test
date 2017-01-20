@@ -1,7 +1,7 @@
 identidock:
  build: .
  expose:
-  - "8080"
+  - "9090"
  environment:
   ENV: PROD
  links:
