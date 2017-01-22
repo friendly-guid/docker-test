@@ -1,3 +1,10 @@
+proxy:
+  image: identiproxy:0.1
+  links:
+    - identidock
+  ports:
+    - "80:80"
+
 identidock:
   image: amouat/identidock:1.0
   ports:
